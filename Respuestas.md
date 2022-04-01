@@ -31,6 +31,29 @@
   Esta solución es la mas correcta, siguen sin  definirse algunas variables que se van a precisar para realizar la extraccion del monto deseado.
    
     
-    
-    
-  
+   #Actividad de lectura 1# 
+   ¿Qué significa el acceso directo a las variables? De un ejemplo. 
+   El acceso directo a las variables significa la definición de una variable dentro de un método.
+   
+   ejemplo:
+   
+   method usarPoder(unValor){
+   var mana= ...
+   if( mana - unValor > 0){ self.atacar()}
+   }
+   
+   
+   ¿Qué significa el acceso indirecto a las variables? De un ejemplo. 
+   el acceso indirecto a las variables significa poder acceder a una variable por medio de un mensaje al objeto en cuestión. La definición se hace por fuera del metodo    y dentro del objeto.
+   
+   Por ejemplo:
+   
+   guerrero.mana()
+   
+   
+   Qué ventajas y desventajas presenta cada estrategia referida a los getters y setters.
+   
+   la ventaja del directo es que aportan legibilidad al código, pero el alcance de las variables están restringidas al metodo donde estan definidas.
+   otra desventaja es que una vez definidas e inicializadas las variables no se puede modificar el valor de la misma y dependen de un parametro externo para darle un      valor.
+   
+   la ventaja del indirecto es que por medio de mensajes se puede obtener el valor de la variable y tambien setearla. Otra ventaja es que al momendo de crear subclases solamente se definen las variables al momento de crear dicha subclase.
