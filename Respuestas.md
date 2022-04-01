@@ -22,13 +22,15 @@
    *tipo
    *saldo
    
-   metodo rojoPermitido()
+  metodo rojoPermitido()
    
-   Opción 3
-    Esta solución va un poco mas a corde, utiliza subClases, pero no inicializa saldo de la misma cuando se hace el inherits, con lo cual se generaría un error en el codigo.
+  Opción 3
+  Esta solución va un poco mas a corde, utiliza subClases, pero no inicializa saldo de la misma cuando se hace el inherits, con lo cual se generaría un error en el       codigo.
+    
+  Opción 4
+  Esta solución es la mas correcta, siguen sin  definirse algunas variables que se van a precisar para realizar la extraccion del monto deseado.
+   
     
     
-    Opción 4
-    Esta solución es la mas correcta, siguen sin  definirse algunas variables que se van a precisar para realizar la extraccion del monto deseado.
-   
+    
   
